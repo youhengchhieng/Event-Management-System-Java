@@ -153,6 +153,7 @@ Planned features to enrich the system:
 
 ##👥 Team
 This project was developed by a passionate team:
+
 Dishank Vyas
 Krishna Shetty
 Shaman Shetty
