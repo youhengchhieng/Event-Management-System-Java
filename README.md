@@ -1,4 +1,4 @@
-# 🎉 Java Event Management System
+#  Java Event Management System
 
 [![Java](https://img.shields.io/badge/Java-JDK%208%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/technologies/downloads/)
 
