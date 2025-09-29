@@ -151,9 +151,11 @@ Planned features to enrich the system:
 
 ---
 
-## 👥 Author
-
-This project was developed by **[Your Name/Team Name Here]**.
+##👥 Team
+This project was developed by a passionate team:
+Dishank Vyas
+Krishna Shetty
+Shaman Shetty
 
 ---
 
